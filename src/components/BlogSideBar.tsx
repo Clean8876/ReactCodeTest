@@ -8,7 +8,7 @@ interface Props {
   selectedPostId: string | null;
   onSelectPost: (id: string) => void;
 }
-
+// SideBar Component
 export function BlogSidebar({ posts, selectedPostId, onSelectPost }: Props) {
   return (
      <aside className="w-64 bg-white border-r p-4">

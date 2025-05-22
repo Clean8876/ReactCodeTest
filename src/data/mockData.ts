@@ -1,5 +1,5 @@
 import type { IBlogPost } from "../interface/types";
-
+//Mock data
 export const mockBlogPosts: IBlogPost[] = [
   {
     id: '1',
