@@ -17,7 +17,7 @@ export function BlogPostCard({ post }: BlogPostCardProps) {
       <CardContent>
         <p className={cn("text-gray-700")}>{post.body}</p>
         <div className={cn("mt-4", "text-sm", "text-gray-500")}>
-          Author email: {post.author.email}
+          Author : {post.author.name}
         </div>
       </CardContent>
     </Card>
